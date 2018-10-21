@@ -1,12 +1,7 @@
 {
   "input": {
     "type": "web",
-    "endpoint": "foo",
+    "endpoint": "bar",
     "response": true
-  },
-  "output": {
-    "type": "web",
-    "method": "POST",
-    "url": "http://localhost:5000/api/bar"
   }
 }

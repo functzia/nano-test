@@ -1,5 +1,6 @@
 module.exports = function(request) {
+  console.log(request.body);
   return {
-    foo: request.method
+    bar: request.method
   };
 };
