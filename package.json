@@ -1,0 +1,8 @@
+{
+  "name": "nano-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/functzia/nano-test.git",
+  "author": "Alon Niv <oakfang@gmail.com>",
+  "license": "MIT"
+}
