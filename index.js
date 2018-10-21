@@ -1,5 +1,5 @@
 module.exports = function(request) {
-  this.debug(request.body);
+  this.log.fatal(request.body);
   return {
     bar: request.method
   };
