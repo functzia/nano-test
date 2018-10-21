@@ -1,7 +1,11 @@
 {
   "input": {
+    "type": "cron",
+    "cron": "*/20 * * * * *"
+  },
+  "output": {
     "type": "web",
-    "endpoint": "bar",
-    "response": true
+    "method": "POST",
+    "url": "http://localhost:5000/api/bar"
   }
 }

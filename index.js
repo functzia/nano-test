@@ -1,6 +1,5 @@
-module.exports = function(request) {
-  console.log(request.body);
+module.exports = function() {
   return {
-    bar: request.method
+    bar: "meow"
   };
 };
