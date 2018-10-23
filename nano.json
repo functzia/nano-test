@@ -1,7 +1,13 @@
 {
   "input": {
     "type": "web",
-    "endpoint": "bar",
+    "endpoint": "mongo",
     "response": true
+  },
+  "output": {
+    "type": "mongodb",
+    "connectionString": "mongodb://admin:fofx123@ds139883.mlab.com:39883/fofx-test",
+    "db": "fofx-test",
+    "collection": "test"
   }
 }

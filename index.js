@@ -1,6 +1,6 @@
-module.exports = function(request) {
-  this.log.fatal(request.body);
+module.exports = function(_request) {
   return {
-    bar: request.method
+    name: "foobar",
+    ts: Date.now()
   };
 };
