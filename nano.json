@@ -6,8 +6,8 @@
   },
   "output": {
     "type": "mongodb",
-    "connectionString": "mongodb://admin:fofx123@ds139883.mlab.com:39883/fofx-test",
-    "db": "fofx-test",
+    "connectionString": "mongodb+srv://admin:fofx123@cluster0-tfing.mongodb.net/test?retryWrites=true",
+    "db": "fofxTest",
     "collection": "test"
   }
 }
