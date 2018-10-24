@@ -1,10 +1,5 @@
 {
   "input": {
-    "type": "web",
-    "endpoint": "mongo",
-    "response": true
-  },
-  "output": {
     "type": "mongodb",
     "connectionString": "mongodb+srv://admin:fofx123@cluster0-tfing.mongodb.net/test?retryWrites=true",
     "db": "fofxTest",
