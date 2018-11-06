@@ -1,5 +1,3 @@
-module.exports = function(request) {
-  return {
-    foo: request.method
-  };
+module.exports = function(msg) {
+  return msg;
 };

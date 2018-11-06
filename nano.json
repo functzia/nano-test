@@ -1,8 +1,7 @@
 {
   "input": {
-    "type": "web",
-    "endpoint": "foo",
-    "response": true
+    "type": "ws",
+    "endpoint": "foo"
   },
   "output": {
     "type": "web",
