@@ -1,3 +1,3 @@
 module.exports = function(msg) {
-  return msg;
+  return Object.keys(msg);
 };
