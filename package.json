@@ -4,5 +4,17 @@
   "main": "index.js",
   "repository": "https://github.com/functzia/nano-test.git",
   "author": "Alon Niv <oakfang@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "fofx": {
+    "input": {
+      "type": "web",
+      "endpoint": "foo",
+      "response": true
+    },
+    "output": {
+      "type": "web",
+      "method": "POST",
+      "url": "http://localhost:5000/api/bar"
+    }
+  }
 }
